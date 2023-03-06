@@ -3,8 +3,11 @@
     width: 100%;
 } 
 header {
-    background-image: url(/src/img/topo-1.png);
-    height: 170vh;
+    height: 1px;
+}
+.img_top {
+    position: relative;
+    z-index: -5;
 }
 .container {
     display: flex;
@@ -115,6 +118,7 @@ span {
     margin: 0;
     padding: 0;
 }
+
 
 
 /* fim noticias */
